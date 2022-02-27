@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Codeforces-Tracker/static/css/main.4d3f6fcf.css",
+    "main.js": "/Codeforces-Tracker/static/js/main.eae792ea.js",
+    "index.html": "/Codeforces-Tracker/index.html",
+    "main.4d3f6fcf.css.map": "/Codeforces-Tracker/static/css/main.4d3f6fcf.css.map",
+    "main.eae792ea.js.map": "/Codeforces-Tracker/static/js/main.eae792ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d3f6fcf.css",
+    "static/js/main.eae792ea.js"
+  ]
+}
