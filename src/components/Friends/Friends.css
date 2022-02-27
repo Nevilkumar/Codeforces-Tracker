@@ -1,0 +1,60 @@
+
+.friends-title{
+    color: var(--white);
+    font-size: 32px;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.users-div{
+    max-height: calc(50vh - 85px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+.user-names{
+    padding: 6px 12px;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: var(--white);
+    background-color: var(--lightGray);
+    margin: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.current-user-color{
+    background: var(--blue);
+}
+
+.user-names-cross-icon{
+    margin-left: 4px;
+    margin-right: -6px;
+}
+
+@media screen and (max-width:1200px){
+    
+    
+    .friends-title{
+        font-size: 25px;
+    }
+
+    .users-div{
+        max-height: calc(300px - 85px);
+    }
+
+    .user-names{
+        padding: 4px 10px;
+        font-size: 20px;
+        margin: 6px;
+    }
+
+    .user-names-cross-icon{
+        font-size: 20px;
+    }
+}

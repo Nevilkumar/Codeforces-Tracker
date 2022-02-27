@@ -1,0 +1,132 @@
+.single-problem-container{
+    width: 100%;
+    background: var(--gray);
+    padding: 10px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+.problem-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.problem-checkDone-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.problem-title{
+    display: inline-block;
+    font-size: 25px;
+    color: var(--blue);
+}
+
+.done-icon{
+    font-size: 25px;
+    color: var(--green);
+    margin-left: 10px;
+    margin-bottom: -5px;
+}
+
+
+.difficulty{
+    font-size: 22px;
+    margin-top: 8px;
+    color: var(--white);
+}
+
+.status-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.status-icon-correct{
+    color: var(--green) !important;
+    margin-right: 10px;
+}
+
+.status-icon-wrong{
+    color: var(--red) !important;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.problem-status{
+    font-size: 22px;
+    color: var(--green);
+    color: #0BDA51;
+}
+
+.wrong-problem-status{
+    font-size: 22px;
+    color: var(--red);
+    text-transform: lowercase;
+}
+
+.wrong-problem-status::first-letter{
+    text-transform: uppercase;
+}
+
+.problem-tags{
+    width: 100%;
+    margin: 5px 0px;
+    margin-top: 8px;
+}
+
+.single-tag{
+    color: var(--white);
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 25px;
+    margin-right: 8px;
+    margin-top: 8px;
+    background-color: var(--lightGray);
+    font-size: 17px;
+}
+
+
+@media screen and (max-width:1200px){
+    
+    .problem-title{
+        font-size: 22px;
+    }
+    
+    .done-icon{
+        font-size: 20px;
+        margin-left: 6px;
+        margin-bottom: 0px;
+    }
+    
+    
+    .difficulty{
+        font-size: 20px;
+    }
+    
+    .status-icon-correct{
+        color: var(--green) !important;
+        margin-right: 6px;
+    }
+    
+    .status-icon-wrong{
+        color: var(--red) !important;
+        margin-right: 6px;
+        font-size: 18px;
+    }
+    
+    .problem-status{
+        font-size: 18px;
+    }
+    
+    .wrong-problem-status{
+        font-size: 18px;
+    }
+   
+    .single-tag{
+        font-size: 15px;
+    }    
+}

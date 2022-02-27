@@ -1,0 +1,49 @@
+
+.solved-title{
+    font-size: 28px;
+    text-align: center;
+    margin-top: 0px;
+    color: var(--white);
+}
+
+.solved-title a{
+    color: var(--blue);
+}
+
+.problems-main-container{
+    width: 100%;
+    height: 92.5%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    overflow-y: auto;
+    margin-top: 20px;
+}
+
+.loading{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.nosolved{
+    font-size: 40px;
+    color: var(--white);
+}
+
+@media screen and (max-width:1200px){
+
+    .solved-title{
+        font-size: 22px;
+        text-align: center;
+        margin-top: 0px;
+        color: var(--white);
+    }
+    
+    .problems-main-container{
+        width: 100%;
+        overflow-y:unset;
+        margin-top: 20px;
+    }
+}

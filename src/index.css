@@ -1,13 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+:root{
+    --white: white;
+    --red: #E34234;
+    --gray: #212329;
+    --lightred: #f9433dcc;
+    --black: #000000;
+    --blue: #337AF1;
+    --darkblue: #0101be;
+    --green: #0BDA51;
+    --lightGray: #373f46;
+    --darkGreen: #023020;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+    font-weight: normal;
+    letter-spacing: 1.1px;
+}
+
+body{
+    background: #121212;
+
+}
+
+
+
+::-webkit-scrollbar{
+    display: none;
 }
